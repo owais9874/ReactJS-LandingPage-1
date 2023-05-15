@@ -1,6 +1,5 @@
 import React from "react";
 
-// import Navbar from '../../MyComponents/Navbar/Navbar';
 import {
   Navbar,
   Banner,
@@ -16,10 +15,8 @@ import {
 } from "../../MyComponents";
 import logoMain from "../../assist/images/logo1.png";
 
-// import Banner from '../../MyComponents/Banners/Banner';
 import videoBg from "../../assist/video/banner.mp4";
 
-// import Patner from '../../MyComponents/Patners/Patner';
 import brand1img from "../../assist/images/brand1.jpg";
 import brand2img from "../../assist/images/brand2.jpg";
 import brand3img from "../../assist/images/brand3.jpg";
@@ -27,15 +24,11 @@ import brand4img from "../../assist/images/brand4.jpg";
 import brand5img from "../../assist/images/brand5.png";
 import brand6img from "../../assist/images/brand8.png";
 
-// import About from '../../MyComponents/About/About';
 import Aboutimg0 from "../../assist/images/about12.png";
 import Aboutimg1 from "../../assist/images/about13.png";
 import Aboutimg2 from "../../assist/images/about11.png";
 import Aboutimg3 from "../../assist/images/about22.png";
 
-// import Service from '../../MyComponents/Services/Service';
-
-// import Portfolio from '../../MyComponents/Portfolio/Portfolio';
 import Folioimg1 from "../../assist/images/portfolio1.png";
 import Folioimg2 from "../../assist/images/portfolio2.png";
 import Folioimg3 from "../../assist/images/portfolio3.png";
@@ -46,20 +39,14 @@ import Folioimg7 from "../../assist/images/portfolio7.png";
 import Folioimg8 from "../../assist/images/portfolio8.png";
 import Folioimg9 from "../../assist/images/portfolio9.png";
 
-// import Blog from '../../MyComponents/Blogs/Blog';
 import blogs1img from "../../assist/images/blog1.png";
 import blogs2img from "../../assist/images/blog2.png";
 
-// import Videos from '../../MyComponents/VideosSection/Videos';
 import videoSec from "../../assist/video/video.mp4";
 
-// import Contact from '../../MyComponents/ContactUs/Contact';
-// import Testimonial from '../../MyComponents/Testimonial/Testimonial';
 import testimonial1 from "../../assist/images/user1.png";
 import testimonial2 from "../../assist/images/user2.png";
 import testimonial3 from "../../assist/images/user3.png";
-
-// import Footer from '../../MyComponents/Footer/Footer';
 
 export default function Main() {
   return (
