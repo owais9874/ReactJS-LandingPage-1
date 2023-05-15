@@ -1,0 +1,11 @@
+export { default as Navbar } from "./Navbar/Navbar";
+export { default as Banner } from "./Banners/Banner";
+export { default as Patner } from "./Patners/Patner";
+export { default as About } from "./About/About";
+export { default as Service } from "./Services/Service";
+export { default as Portfolio } from "./Portfolio/Portfolio";
+export { default as Videos } from "./VideosSection/Videos";
+export { default as Contact } from "./ContactUs/Contact";
+export { default as Testimonial } from "./Testimonial/Testimonial";
+export { default as Blog } from "./Blogs/Blog";
+export { default as Footer } from "./Footer/Footer";

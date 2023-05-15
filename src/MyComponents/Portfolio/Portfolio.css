@@ -1,0 +1,169 @@
+.Section-Portfolio {
+    padding: 60px 0px;
+    margin-bottom: 50px;
+}
+.section-heading {
+    max-width: 770px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 90px;
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 5px;
+    color: #fbb42f;
+}
+.section-heading:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1px;
+    height: 60px;
+    background: #cacaca;
+    border-radius: 30px;
+}
+.Section-Portfolio h2 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 1.4;
+    color: black;
+    max-width: 770px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.all-folio-img .portfolio-image {
+    margin: 20px 10px;
+    position: relative;
+}
+.all-folio-img {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0px;
+}
+.folio-img.column2-img {
+    margin-top: 60px;
+}
+    
+    
+.portfolio-image .folio-txt-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    transition: .4s ease-in-out;
+    background: linear-gradient(183.62deg,rgba(7,8,18,0) 2.97%,#070812 88.71%);
+    opacity: 0;
+    transform: scaleY(0);
+    transform-origin: top;
+}
+.portfolio-image:hover .folio-txt-icon {
+    opacity: 1;
+    transform: scaleY(1);
+}
+.folio-txt-icon .folio-icon {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+.folio-icon button {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: #fbb42f;
+    color: black !important;
+}
+.folio-icon button i {
+    font-size: 35px;
+}
+.folio-txt-icon .folio-txt {
+    position: absolute;
+    left: 30px;
+    right: 30px;
+    bottom: 25px;
+}
+.folio-txt-icon .folio-txt h2 {
+    margin-bottom: 0px !important;
+    font-size: 1.5rem !important;
+    font-weight: 500;
+    line-height: 1.2;
+    padding: 0px !important;
+    text-align: inherit !important;
+}
+.folio-txt-icon .folio-txt h2 button {
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 40px;
+    color: white !important;
+    text-decoration: none;
+}
+.folio-txt-icon .folio-txt span {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 30px;
+    color: white;
+}
+.Section-Portfolio .folio-btn {
+    text-align: center;
+}
+.Section-Portfolio .folio-btn button.btn.search-btn {
+    padding: 15px 40px;
+    font-size: 20px;
+}
+  
+/*for tablet pro*/
+@media (min-width: 992px) and (max-width: 1024px) {}
+  
+/*for tablet*/
+@media (min-width: 768px) and (max-width: 991px) {}
+      
+/*for mobile*/
+@media (min-width: 320px) and (max-width: 767px) {
+    .Section-Portfolio {
+      padding: 60px 0px;
+      margin-bottom: 0px;
+    }
+    .section-heading {
+      padding-top: 0px;
+      font-size: 18px;
+      letter-spacing: 3px;
+      color: #fbb42f;
+    }
+    .section-heading:after {
+      content: none;
+    }
+    .Section-Portfolio h2 {
+      font-size: 20px;
+    }
+    .folio-img {
+      padding: 0px !important;
+    }
+  
+    .folio-txt-icon .folio-icon {
+      position: absolute;
+      top: auto;
+      bottom: 5px;
+      right: 5px;
+    }
+    .folio-icon button {
+      height: 25px;
+      width: 25px;
+    }
+    .folio-icon button i {
+      font-size: 18px;
+    }
+    .folio-txt-icon .folio-txt {
+      display: none;
+    }
+    .Section-Portfolio .folio-btn button.btn.search-btn {
+      padding: 10px 30px;
+      font-size: 18px;
+    }
+}

@@ -1,0 +1,35 @@
+.Section-Patners {
+    padding: 20px 0px;
+    margin-bottom: 50px !important;
+}
+.patner-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.patner-image img {
+    height: 100px !important;
+    width: 100px !important;
+    object-fit: cover;
+}
+.Section-Patners .owl-dots {
+    display: none !important;
+}
+
+/*for tablet pro*/
+@media (min-width: 992px) and (max-width: 1024px) {}
+
+/*for tablet*/
+@media (min-width: 768px) and (max-width: 991px) {}
+  
+/*for mobile*/
+@media (min-width: 320px) and (max-width: 767px) {
+    .Section-Patners {
+        margin-bottom: 0px !important;
+    }
+    .patner-image img {
+        height: 70px !important;
+        width: 100% !important;
+        object-fit: cover;
+    }
+}
