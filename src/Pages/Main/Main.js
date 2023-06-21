@@ -13,7 +13,6 @@ import {
   Testimonial,
   Footer,
 } from "../../MyComponents";
-import logoMain from "../../assist/images/logo1.png";
 
 import videoBg from "../../assist/video/banner.mp4";
 
@@ -51,7 +50,7 @@ import testimonial3 from "../../assist/images/user3.png";
 export default function Main() {
   return (
     <>
-      <Navbar img2={logoMain} />
+      <Navbar/>
 
       <div className="Section-Banner">
         <Banner
