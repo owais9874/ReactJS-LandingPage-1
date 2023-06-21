@@ -19,7 +19,7 @@ export const blogsData = [
     url: "#blog",
   },
   {
-    //blogs 2
+    //blogs 3
     id: 3,
     image: blogImg1,
     type: "Photography, Fashion",
@@ -27,12 +27,11 @@ export const blogsData = [
     url: "#blog",
   },
   {
-    //blogs 2
+    //blogs 4
     id: 4,
     image: blogImg1,
     type: "Photography, Fashion",
     title: "Best Fujifilm Camera 21: Mirrorless, Instax and Compact.",
     url: "#blog",
   },
-  
 ];
