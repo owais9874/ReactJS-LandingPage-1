@@ -1,7 +1,7 @@
 import React from "react";
 import "./Blog.css";
 import { blogsData } from "../../Data/blogsData";
-
+import SingleBlog from "./SingleBlog/SingleBlog";
 
 export default function Blog() {
   return (
@@ -16,39 +16,21 @@ export default function Blog() {
               </h2>
             </div>
           </div>
-          <div className="row">
-            <div className="col-md-6 col-12">
-              <div className="blog-image">
-                <img src={blogsData.blog1} alt="" />
-                <div className="publish-date">
-                  <span>jan</span>
-                  <h3>20</h3>
-                  <span>2023</span>
-                </div>
+          <div className="blog-body">
+            {blogsData.length > 0 && (
+              <div className="blog--bodyContainer">
+                {blogsData.slice(0, 3).reverse().map((blog) => (
+                    <SingleBlog
+                      title={blog.title}
+                      type={blog.type}
+                      image={blog.image}
+                      url={blog.url}
+                      key={blog.id}
+                      id={blog.id}
+                    />
+                ))}
               </div>
-              <div className="blog-type">
-                <p>{blogsData.blogType1}</p>
-                <h3 className="blog-title">
-                  <a href="#blog">{blogsData.blogTitle1}</a>
-                </h3>
-              </div>
-            </div>
-            <div className="col-md-6 col-12">
-              <div className="blog-image">
-                <img src={blogsData.blog2} alt="" />
-                <div className="publish-date">
-                  <span>jan</span>
-                  <h3>20</h3>
-                  <span>2023</span>
-                </div>
-              </div>
-              <div className="blog-type">
-                <p>{blogsData.blogType2}</p>
-                <h3 className="blog-title">
-                  <a href="#blog">{blogsData.blogTitle2}</a>
-                </h3>
-              </div>
-            </div>
+            )}
           </div>
         </div>
       </section>
