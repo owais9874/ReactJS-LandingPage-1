@@ -14,7 +14,7 @@ import { BsFacebook, BsInstagram, BsTwitter } from "react-icons/bs";
 import { BsList, BsX } from "react-icons/bs";
 
 
-const Navbar = (props) => {
+const Navbar = () => {
 
   // Sticky Menu Area
   useEffect(() => {
@@ -37,7 +37,7 @@ const Navbar = (props) => {
   return (
     <>
       <nav className="main-nav header-section">
-        
+
         {/* Logo part */}
         <div className="logo">
           <a href="/">

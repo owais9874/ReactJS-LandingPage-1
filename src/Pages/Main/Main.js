@@ -38,9 +38,6 @@ import Folioimg7 from "../../assist/images/portfolio7.png";
 import Folioimg8 from "../../assist/images/portfolio8.png";
 import Folioimg9 from "../../assist/images/portfolio9.png";
 
-import blogs1img from "../../assist/images/blog1.png";
-import blogs2img from "../../assist/images/blog2.png";
-
 import videoSec from "../../assist/video/video.mp4";
 
 import testimonial1 from "../../assist/images/user1.png";
@@ -119,15 +116,9 @@ export default function Main() {
         </div>
       </div>
 
-      <div className="Section-Blogs">
-        <Blog blogs1={blogs1img} blogs2={blogs2img} />
-      </div>
+        <Blog/>
 
-      <div className="Section-Footer">
         <Footer searchbtntxt="SEND" />
-      </div>
     </>
   );
 }
-
-// export default  Main
