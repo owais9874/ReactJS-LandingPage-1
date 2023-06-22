@@ -14,13 +14,6 @@ import {
   Footer,
 } from "../../MyComponents";
 
-import brand1img from "../../assist/images/brand1.jpg";
-import brand2img from "../../assist/images/brand2.jpg";
-import brand3img from "../../assist/images/brand3.jpg";
-import brand4img from "../../assist/images/brand4.jpg";
-import brand5img from "../../assist/images/brand5.png";
-import brand6img from "../../assist/images/brand8.png";
-
 import Aboutimg0 from "../../assist/images/about12.png";
 import Aboutimg1 from "../../assist/images/about13.png";
 import Aboutimg2 from "../../assist/images/about11.png";
@@ -47,17 +40,7 @@ export default function Main() {
     <>
       <Navbar />
       <Banner />
-
-      <div className="Section-Patners">
-        <Patner
-          patner1={brand1img}
-          patner2={brand2img}
-          patner3={brand3img}
-          patner4={brand4img}
-          patner5={brand5img}
-          patner6={brand6img}
-        />
-      </div>
+      <Patner />
 
       <div className="Section-About">
         <About
