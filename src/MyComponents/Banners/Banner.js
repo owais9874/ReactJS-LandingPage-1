@@ -1,25 +1,24 @@
 import React from 'react'
 import './Banner.css'
+import { bannerData } from '../../Data/bannerData'
 
-export default function Banner(props) {
+export default function Banner() {
   return (
     <>
-      <div id='home' className="banner-section">
-        <div className="banner">
-          <video autoPlay muted loop src={props.bannreVideo}/>
-        </div>
-        <div className="container">
+      <section id='home' className="banner">
+        <video autoPlay muted loop src={bannerData.bannerVideo}/>
+        {/* <div className="container">
           <div className="row">
-            <div className="col-md-12 col-12">
+            <div className="col-md-12 col-12"> */}
               <div className="banner-txt">
-                <h3>{props.bannertxt1}</h3>
-                <h1>{props.bannertxt2}</h1>
-                <a href='#service'><button className='btn search-btn'>{props.bannerbtn}</button></a>
+                <h3>{bannerData.bannerText1}</h3>
+                <h1>{bannerData.bannerText2}</h1>
+                <a href={bannerData.btnUrl}><button className='btn search-btn'>{bannerData.bannerBtn}</button></a>
               </div>
-            </div>
+            {/* </div>
           </div>
-        </div>
-      </div>
+        </div> */}
+      </section>
     </>
   )
 }

@@ -14,8 +14,6 @@ import {
   Footer,
 } from "../../MyComponents";
 
-import videoBg from "../../assist/video/banner.mp4";
-
 import brand1img from "../../assist/images/brand1.jpg";
 import brand2img from "../../assist/images/brand2.jpg";
 import brand3img from "../../assist/images/brand3.jpg";
@@ -47,16 +45,8 @@ import testimonial3 from "../../assist/images/user3.png";
 export default function Main() {
   return (
     <>
-      <Navbar/>
-
-      <div className="Section-Banner">
-        <Banner
-          bannreVideo={videoBg}
-          bannertxt1="HOME PHOTOGRAPHY"
-          bannertxt2="We Love To Capture The Best Memory !"
-          bannerbtn="View More"
-        />
-      </div>
+      <Navbar />
+      <Banner />
 
       <div className="Section-Patners">
         <Patner
@@ -79,9 +69,7 @@ export default function Main() {
         />
       </div>
 
-      <div className="Section-Service">
-        <Service />
-      </div>
+      <Service />
 
       <div className="Section-Portfolio">
         <Portfolio
@@ -116,9 +104,8 @@ export default function Main() {
         </div>
       </div>
 
-        <Blog/>
-
-        <Footer/>
+      <Blog />
+      <Footer />
     </>
   );
 }

@@ -1,46 +1,36 @@
-.Section-Banner {
-    position: relative;
+section.banner {
+  position: relative;
 }
-.Section-Banner .banner video {
-    height: 700px;
-    object-fit: cover;
-    width: 100%;
+section.banner video {
+  height: 700px;
+  object-fit: cover;
+  width: 100%;
 }
 .banner-txt {
-    position: absolute;
-    top: 250px;
-    left: 100px;
+  position: absolute;
+  top: 250px;
+  left: 100px;
 }
 .banner-txt h3 {
-    font-size: 50px;
-    font-weight: 700;
-    color: #fbb42f;
-    margin-bottom: 20px;
+  display: inline-block;
+  font-size: 50px;
+  font-weight: 700;
+  color: #fbb42f;
+  margin-bottom: 20px;
 }
 .banner-txt h1 {
-    font-size: 70px;
-    font-weight: 700;
-    color: #282c34;
-    padding-right: 460px;
-    margin-bottom: 20px;
-    line-height: 65px;
+  display: inline-block;
+  font-size: 70px;
+  font-weight: 700;
+  color: #282c34;
+  padding-right: 460px;
+  margin-bottom: 20px;
+  line-height: 65px;
 }
-/* .banner-txt button.btn.search-btn {
-    color: #fbb42f;
-    font-size: 25px;
-    font-weight: 500;
-    border: 1px solid !important;
-    padding: 15px 40px;
-  }
-  .banner-txt button.btn.search-btn:hover {
-    background: #fbb42f;
-    border: 1px solid #fbb42f !important;
-    color: #fff;
-} */
-
 
 /*for tablet pro*/
-@media (min-width: 992px) and (max-width: 1024px) {}
+@media (min-width: 992px) and (max-width: 1024px) {
+}
 
 /*for tablet*/
 @media (min-width: 768px) and (max-width: 991px) {
@@ -51,7 +41,6 @@
 
 /*for mobile*/
 @media (min-width: 320px) and (max-width: 767px) {
- 
   .Section-Banner .banner video {
     height: 400px;
   }
@@ -60,8 +49,8 @@
     left: 10px;
   }
   .banner-txt h3 {
-  font-size: 30px;
-  margin-bottom: 25px;
+    font-size: 30px;
+    margin-bottom: 25px;
   }
   .banner-txt h1 {
     font-size: 25px;
@@ -74,5 +63,4 @@
     font-size: 20px;
     padding: 10px 30px;
   }
-
 }
