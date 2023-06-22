@@ -14,8 +14,6 @@ import {
   Footer,
 } from "../../MyComponents";
 
-import videoSec from "../../assist/video/video.mp4";
-
 import testimonial1 from "../../assist/images/user1.png";
 import testimonial2 from "../../assist/images/user2.png";
 import testimonial3 from "../../assist/images/user3.png";
@@ -28,10 +26,10 @@ export default function Main() {
       <Patner />
       <About />
       <Service />
-      <Portfolio/>
+      <Portfolio />
 
       <div className="Section-vid-cont-testi">
-        <Videos videoSection={videoSec} />
+        <Videos />
         <div className="container-fluid">
           <div className="row">
             <div className="col-md-5 col-12">
