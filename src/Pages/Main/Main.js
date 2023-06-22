@@ -14,11 +14,6 @@ import {
   Footer,
 } from "../../MyComponents";
 
-import Aboutimg0 from "../../assist/images/about12.png";
-import Aboutimg1 from "../../assist/images/about13.png";
-import Aboutimg2 from "../../assist/images/about11.png";
-import Aboutimg3 from "../../assist/images/about22.png";
-
 import Folioimg1 from "../../assist/images/portfolio1.png";
 import Folioimg2 from "../../assist/images/portfolio2.png";
 import Folioimg3 from "../../assist/images/portfolio3.png";
@@ -41,17 +36,7 @@ export default function Main() {
       <Navbar />
       <Banner />
       <Patner />
-
-      <div className="Section-About">
-        <About
-          imgabout0={Aboutimg0}
-          imgabout1={Aboutimg1}
-          imgabout2={Aboutimg2}
-          bannerbtn="View More"
-          imgabout3={Aboutimg3}
-        />
-      </div>
-
+      <About />
       <Service />
 
       <div className="Section-Portfolio">
