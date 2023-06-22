@@ -118,7 +118,7 @@ export default function Main() {
 
         <Blog/>
 
-        <Footer searchbtntxt="SEND" />
+        <Footer/>
     </>
   );
 }

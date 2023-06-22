@@ -121,7 +121,6 @@ button.footer-btn.search-btn {
     height: 56px;
     padding: 18px 25px;
     border-radius: 0px !important;
-    text-transform: uppercase;
     border: 1px solid #fbb42f;
     color: #fbb42f;
     transition: 0.3s;

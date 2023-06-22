@@ -1,8 +1,9 @@
 import React from "react";
+import "../SingleBlog/SingleBlog.css"
 
 function SingleBlog({ id, image, title, type, url }) {
   return (
-    <div className="singleBlog" key={id}>
+    <a href={url} className="singleBlog" key={id}>
       <div className="blog-image">
         <img src={image} alt="" />
         <div className="publish-date">
@@ -17,7 +18,7 @@ function SingleBlog({ id, image, title, type, url }) {
           <a href={url}>{title}</a>
         </h3>
       </div>
-    </div>
+    </a>
   );
 }
 
