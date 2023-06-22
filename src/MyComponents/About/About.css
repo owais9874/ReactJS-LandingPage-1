@@ -13,13 +13,11 @@ section.about {
 .about-details {
     padding: 50px 170px 50px 50px;
     position: relative;
-    font-size: 20px;
-    color: black;
 }
-/* .about-details p {
+.about-details p {
     font-size: 20px;
     color: black;
-}   */
+}  
 .about-details a button.btn.search-btn {
     margin-top: 30px;
 }
