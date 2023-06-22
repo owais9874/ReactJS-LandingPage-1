@@ -1,4 +1,4 @@
-.Section-Portfolio {
+section.portfolio {
     padding: 60px 0px;
     margin-bottom: 50px;
 }
@@ -25,7 +25,7 @@
     background: #cacaca;
     border-radius: 30px;
 }
-.Section-Portfolio h2 {
+section.portfolio h2 {
     text-align: center;
     font-weight: 500;
     font-size: 42px;
@@ -110,10 +110,10 @@
     line-height: 30px;
     color: white;
 }
-.Section-Portfolio .folio-btn {
+section.portfolio .folio-btn {
     text-align: center;
 }
-.Section-Portfolio .folio-btn button.btn.search-btn {
+section.portfolio .folio-btn button.btn.search-btn {
     padding: 15px 40px;
     font-size: 20px;
 }
@@ -126,7 +126,7 @@
       
 /*for mobile*/
 @media (min-width: 320px) and (max-width: 767px) {
-    .Section-Portfolio {
+    section.portfolio {
       padding: 60px 0px;
       margin-bottom: 0px;
     }
@@ -139,7 +139,7 @@
     .section-heading:after {
       content: none;
     }
-    .Section-Portfolio h2 {
+    section.portfolio h2 {
       font-size: 20px;
     }
     .folio-img {
@@ -162,7 +162,7 @@
     .folio-txt-icon .folio-txt {
       display: none;
     }
-    .Section-Portfolio .folio-btn button.btn.search-btn {
+    section.portfolio .folio-btn button.btn.search-btn {
       padding: 10px 30px;
       font-size: 18px;
     }
