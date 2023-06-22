@@ -4,8 +4,8 @@ import './Service.css'
 export default function Service() {
     return (
         <>
-            <section className='service'>
-                <div id='service' className="container">
+            <section id='service' className='service'>
+                <div className="container">
                     <div className="row">
                         <div className="col-md-12 col-12">
                             <div className="service-heading">OUR SERVICES</div>

@@ -89,7 +89,7 @@ const Navbar = () => {
                   <hr className="dropdown-divider" />
                 </li>
                 <li>
-                  <a href="#history">
+                  <a href="#blogs">
                     <FaHistory /> History
                   </a>
                 </li>

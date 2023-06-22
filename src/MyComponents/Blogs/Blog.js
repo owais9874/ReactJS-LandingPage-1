@@ -6,7 +6,7 @@ import SingleBlog from "./SingleBlog/SingleBlog";
 export default function Blog() {
   return (
     <>
-      <section className="blogs">
+      <section id="blogs" className="blogs">
         <div className="container">
           <div className="row">
             <div className="col-md-12 col-12">
