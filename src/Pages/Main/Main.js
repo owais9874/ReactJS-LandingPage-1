@@ -14,10 +14,6 @@ import {
   Footer,
 } from "../../MyComponents";
 
-import testimonial1 from "../../assist/images/user1.png";
-import testimonial2 from "../../assist/images/user2.png";
-import testimonial3 from "../../assist/images/user3.png";
-
 export default function Main() {
   return (
     <>
@@ -36,11 +32,7 @@ export default function Main() {
               <Contact />
             </div>
             <div className="col-md-7 col-12">
-              <Testimonial
-                testiUser1={testimonial1}
-                testiUser2={testimonial2}
-                testiUser3={testimonial3}
-              />
+              <Testimonial />
             </div>
           </div>
         </div>
