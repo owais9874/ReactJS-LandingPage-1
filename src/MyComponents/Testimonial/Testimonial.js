@@ -8,6 +8,7 @@ export default function Testimonial() {
     
   const settings = {
     dots: true,
+    // fade: true,
     infinite: true,
     speed: 800,
     arrows: false,
