@@ -50,7 +50,6 @@ const Navbar = () => {
           className={
             showMediaIcons ? "menu-link mobile-menu-link" : "menu-link"
           }
-          // onClick={() => setShowMediaIcons(true)}
         >
           <ul className="navbar-menu">
             <li onClick={() => setShowMediaIcons(false)}>

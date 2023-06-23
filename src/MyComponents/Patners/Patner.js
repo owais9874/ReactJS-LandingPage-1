@@ -17,6 +17,15 @@ export default function Patner() {
     draggable: true,
     swipeToSlide: true,
     swipe: true,
+    responsive: [
+      {
+        breakpoint: 720,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+        },
+      },
+    ]
   };
 
   return (
