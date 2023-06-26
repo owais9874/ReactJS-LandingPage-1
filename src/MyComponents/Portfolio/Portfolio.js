@@ -15,182 +15,28 @@ export default function Portfolio() {
           </div>
           <div className="all-folio-img">
             <div className="row">
-              <div className="folio-img">
-                <div className="col-md-12  col-12">
-                  <div className="portfolio-image">
-                    <img src={portfolioData.folio1} alt="" />
+              {portfolioData.map((folio) => (
+                <div className="col-md-4  col-12">
+                  <div className="portfolio-image" key={folio.id}>
+                    <img src={folio.folioImg} alt="" />
                     <div className="folio-txt-icon">
                       <div className="folio-icon">
-                        <button>
-                          <i className="bi bi-plus"></i>
-                        </button>
+                        <button>{folio.hoverIcon}</button>
                       </div>
                       <div className="folio-txt">
                         <h2>
-                          <button>Magic Moments Photo!</button>
+                          <button>{folio.hoverTitle}</button>
                         </h2>
-                        <span>Date: 16 January 2022</span>
+                        <span>{folio.hoverDate}</span>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="col-md-12  col-12">
-                  <div className="portfolio-image center-img">
-                    <img src={portfolioData.folio2} alt="" />
-                    <div className="folio-txt-icon">
-                      <div className="folio-icon">
-                        <button>
-                          <i className="bi bi-plus"></i>
-                        </button>
-                      </div>
-                      <div className="folio-txt">
-                        <h2>
-                          <button>Magic Moments Photo!</button>
-                        </h2>
-                        <span>Date: 16 January 2022</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-12  col-12">
-                  <div className="portfolio-image">
-                    <img src={portfolioData.folio3} alt="" />
-                    <div className="folio-txt-icon">
-                      <div className="folio-icon">
-                        <button>
-                          <i className="bi bi-plus"></i>
-                        </button>
-                      </div>
-                      <div className="folio-txt">
-                        <h2>
-                          <button>Magic Moments Photo!</button>
-                        </h2>
-                        <span>Date: 16 January 2022</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="row">
-              <div className="folio-img column2-img">
-                <div className="col-md-12 col-12">
-                  <div className="portfolio-image">
-                    <img src={portfolioData.folio4} alt="" />
-                    <div className="folio-txt-icon">
-                      <div className="folio-icon">
-                        <button>
-                          <i className="bi bi-plus"></i>
-                        </button>
-                      </div>
-                      <div className="folio-txt">
-                        <h2>
-                          <button>Magic Moments Photo!</button>
-                        </h2>
-                        <span>Date: 16 January 2022</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-12 col-12">
-                  <div className="portfolio-image">
-                    <img src={portfolioData.folio5} alt="" />
-                    <div className="folio-txt-icon">
-                      <div className="folio-icon">
-                        <button>
-                          <i className="bi bi-plus"></i>
-                        </button>
-                      </div>
-                      <div className="folio-txt">
-                        <h2>
-                          <button>Magic Moments Photo!</button>
-                        </h2>
-                        <span>Date: 16 January 2022</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-12 col-12">
-                  <div className="portfolio-image">
-                    <img src={portfolioData.folio6} alt="" />
-                    <div className="folio-txt-icon">
-                      <div className="folio-icon">
-                        <button>
-                          <i className="bi bi-plus"></i>
-                        </button>
-                      </div>
-                      <div className="folio-txt">
-                        <h2>
-                          <button>Magic Moments Photo!</button>
-                        </h2>
-                        <span>Date: 16 January 2022</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="row">
-              <div className="folio-img">
-                <div className="col-md-12 col-12">
-                  <div className="portfolio-image">
-                    <img src={portfolioData.folio7} alt="" />
-                    <div className="folio-txt-icon">
-                      <div className="folio-icon">
-                        <button>
-                          <i className="bi bi-plus"></i>
-                        </button>
-                      </div>
-                      <div className="folio-txt">
-                        <h2>
-                          <button>Magic Moments Photo!</button>
-                        </h2>
-                        <span>Date: 16 January 2022</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-12 col-12">
-                  <div className="portfolio-image">
-                    <img src={portfolioData.folio8} alt="" />
-                    <div className="folio-txt-icon">
-                      <div className="folio-icon">
-                        <button>
-                          <i className="bi bi-plus"></i>
-                        </button>
-                      </div>
-                      <div className="folio-txt">
-                        <h2>
-                          <button>Magic Moments Photo!</button>
-                        </h2>
-                        <span>Date: 16 January 2022</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-12 col-12">
-                  <div className="portfolio-image">
-                    <img src={portfolioData.folio9} alt="" />
-                    <div className="folio-txt-icon">
-                      <div className="folio-icon">
-                        <button>
-                          <i className="bi bi-plus"></i>
-                        </button>
-                      </div>
-                      <div className="folio-txt">
-                        <h2>
-                          <button>Magic Moments Photo!</button>
-                        </h2>
-                        <span>Date: 16 January 2022</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              ))}
             </div>
           </div>
           <div className="folio-btn">
-            <button className="btn search-btn">{portfolioData.folioBtn}</button>
+            <button className="btn search-btn">See More</button>
           </div>
         </div>
       </section>

@@ -80,7 +80,7 @@ section.portfolio h2 {
     background: #fbb42f;
     color: black !important;
 }
-.folio-icon button i {
+.folio-icon button {
     font-size: 35px;
 }
 .folio-txt-icon .folio-txt {
@@ -156,7 +156,7 @@ section.portfolio .folio-btn button.btn.search-btn {
       height: 25px;
       width: 25px;
     }
-    .folio-icon button i {
+    .folio-icon button {
       font-size: 18px;
     }
     .folio-txt-icon .folio-txt {
