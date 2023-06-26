@@ -24,7 +24,7 @@
     margin-bottom: 20px;
     transition: 0.5s;
 }
-.service1 i {
+.service1 .icon {
     color: #fbb42f;
     font-size: 30px;
 }
