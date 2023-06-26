@@ -20,6 +20,9 @@
 .all-service {
     margin-bottom: 40px;
 }
+.all-service .service1 {
+    padding: 20px 0px;
+}
 .service-row .icon {
     margin-bottom: 20px;
     transition: 0.5s;
