@@ -1,13 +1,14 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
 
-import {  Main } from './Pages'
+import { Main } from "./Pages";
 
 // import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
-import { BackToTop } from './MyComponents/BackToTop/BackToTop';
-import Floating from './MyComponents/FloatButton/Floating';
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
+import { BackToTop } from "./MyComponents/BackToTop/BackToTop";
+import Floating from "./MyComponents/FloatButton/Floating";
 
 function App() {
   return (
@@ -18,9 +19,9 @@ function App() {
         </Routes>
       </BrowserRouter> */}
 
-      <Main/>
-      <Floating/>
-      <BackToTop /> 
+      <Main />
+      <Floating />
+      <BackToTop />
     </>
   );
 }
