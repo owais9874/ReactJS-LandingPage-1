@@ -1,19 +1,19 @@
 .go-top-btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    right: 15px;
-    bottom: 10px;
-    z-index: 900;
-    cursor: pointer;
-    background: #fbb42f;
-    border-radius: 50%;
-    height: 40px;
-    width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  right: 15px;
+  bottom: 10px;
+  z-index: 900;
+  cursor: pointer;
+  background: #fbb42f;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
 }
 .go-top-btn svg.top-btn-icon {
-    /* height: 16px !important; */
-    color: #ffffff !important;
-    font-size: 20px !important;
+  /* height: 16px !important; */
+  color: #ffffff !important;
+  font-size: 20px !important;
 }

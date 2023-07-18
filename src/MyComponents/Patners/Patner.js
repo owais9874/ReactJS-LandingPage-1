@@ -25,7 +25,7 @@ export default function Patner() {
           slidesToScroll: 1,
         },
       },
-    ]
+    ],
   };
 
   return (

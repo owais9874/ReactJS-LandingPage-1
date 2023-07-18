@@ -1,103 +1,105 @@
 .contact-form {
-    margin-top: -150px;
-    margin-left: 65px;
-    background: #fff;
-    box-shadow: 3px 2px 30px rgb(0 0 0 / 6%);
-    border-radius: 10px;
-    max-width: 500px;
-    padding: 50px 60px;
-    position: relative;
-    z-index: 99;
+  margin-top: -150px;
+  margin-left: 65px;
+  background: #fff;
+  box-shadow: 3px 2px 30px rgb(0 0 0 / 6%);
+  border-radius: 10px;
+  max-width: 500px;
+  padding: 50px 60px;
+  position: relative;
+  z-index: 99;
 }
 .contact-form form {
-    text-align: center;
+  text-align: center;
 }
 .contact-form h3 {
-    text-align: center;
-    font-weight: 400 !important;
-    font-size: 40px !important;
-    line-height: 50px;
-    color: #070812;
-    position: relative;
-    margin-bottom: 50px;
+  text-align: center;
+  font-weight: 400 !important;
+  font-size: 40px !important;
+  line-height: 50px;
+  color: #070812;
+  position: relative;
+  margin-bottom: 50px;
 }
 .contact-form h3:after {
-    content: "";
-    width: 60px;
-    height: 2px;
-    background: #fbb42f;
-    border-radius: 30px;
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
+  content: "";
+  width: 60px;
+  height: 2px;
+  background: #fbb42f;
+  border-radius: 30px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .contact-form input {
-    width: 100%;
-    border: none;
-    outline: none;
-    padding: 18px 10px;
-    margin-bottom: 20px;
-    background-color: transparent;
-    border-bottom: 1px solid hsla(0,0%,65%,.431);
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 18px 10px;
+  margin-bottom: 20px;
+  background-color: transparent;
+  border-bottom: 1px solid hsla(0, 0%, 65%, 0.431);
 }
 .contact-form input:focus {
-    border: 1px solid rgba(250,99,80,.5);
+  border: 1px solid rgba(250, 99, 80, 0.5);
 }
 .contact-form textarea.txt-message {
-    width: 100%;
-    border: none;
-    outline: none;
-    min-height: 100px;
-    padding: 18px 10px;
-    margin-bottom: 20px;
-    background-color: transparent;
-    border-bottom: 1px solid hsla(0,0%,65%,.431);
+  width: 100%;
+  border: none;
+  outline: none;
+  min-height: 100px;
+  padding: 18px 10px;
+  margin-bottom: 20px;
+  background-color: transparent;
+  border-bottom: 1px solid hsla(0, 0%, 65%, 0.431);
 }
 .contact-form textarea.txt-message:focus {
-    border: 1px solid rgba(250,99,80,.5);
+  border: 1px solid rgba(250, 99, 80, 0.5);
 }
 .contact-form button.submit-btn {
-    margin-top: 25px!important;
-    background-color: transparent;
-    color: #fbb42f;
-    position: relative;
-    z-index: 1;
-    transition: all .6s ease;
-    border: 1px solid #fbb42f;
-    font-weight: 400;
-    padding: 15px 40px;
-    font-size: 20px;
-    border-radius: 5px;
+  margin-top: 25px !important;
+  background-color: transparent;
+  color: #fbb42f;
+  position: relative;
+  z-index: 1;
+  transition: all 0.6s ease;
+  border: 1px solid #fbb42f;
+  font-weight: 400;
+  padding: 15px 40px;
+  font-size: 20px;
+  border-radius: 5px;
 }
 .contact-form button.submit-btn:hover {
-    background-color: #fbb42f;
-    color: #fff;
-    transition: all .6s ease;
+  background-color: #fbb42f;
+  color: #fff;
+  transition: all 0.6s ease;
 }
 
 /*for tablet pro*/
-@media (min-width: 992px) and (max-width: 1024px) {}
+@media (min-width: 992px) and (max-width: 1024px) {
+}
 
 /*for tablet*/
-@media (min-width: 768px) and (max-width: 991px) {}
-  
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
 /*for mobile*/
 @media (min-width: 320px) and (max-width: 767px) {
-    .contact-form {
-        margin-top: -170px;
-        margin-left: 30px;
-        margin-right: 30px;
-        max-width: 100%;
-        padding: 40px 30px;
-    }
-    .contact-form h3 {
-        font-size: 30px !important;
-        margin-bottom: 20px;
-    }
-    .contact-form button.submit-btn {
-        margin-top: 25px!important;
-        padding: 10px 30px;
-        font-size: 18px;
-    }
+  .contact-form {
+    margin-top: -170px;
+    margin-left: 30px;
+    margin-right: 30px;
+    max-width: 100%;
+    padding: 40px 30px;
+  }
+  .contact-form h3 {
+    font-size: 30px !important;
+    margin-bottom: 20px;
+  }
+  .contact-form button.submit-btn {
+    margin-top: 25px !important;
+    padding: 10px 30px;
+    font-size: 18px;
+  }
 }

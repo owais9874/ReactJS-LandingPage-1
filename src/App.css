@@ -1,7 +1,7 @@
-html{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   scroll-behavior: smooth;
 }
 
@@ -11,16 +11,22 @@ body {
   padding: 0;
   scroll-behavior: smooth;
   overflow-x: hidden;
-  font-family: "Josefin Sans",sans-serif !important;
+  font-family: "Josefin Sans", sans-serif !important;
 }
 
-img{max-width: 100%;}
+img {
+  max-width: 100%;
+}
 
-a{text-decoration: none !important;}
+a {
+  text-decoration: none !important;
+}
 
-a:hover{text-decoration: none !important;}
+a:hover {
+  text-decoration: none !important;
+}
 
-ul{
+ul {
   list-style: none !important;
   margin: 0px !important;
   padding: 0px 0px 0px 0px !important;
@@ -38,7 +44,6 @@ button {
   position: relative;
   margin-bottom: 100px;
 }
-
 
 ::-webkit-scrollbar {
   width: 3px !important;
@@ -65,31 +70,35 @@ button.btn.search-btn:hover {
 /*App css*/
 
 /*for tablet pro*/
-@media (min-width: 992px) and (max-width: 1024px) {}
+@media (min-width: 992px) and (max-width: 1024px) {
+}
 
 /*for tablet*/
-@media (min-width: 768px) and (max-width: 991px) {}
+@media (min-width: 768px) and (max-width: 991px) {
+}
 
 /*for mobile*/
 @media (min-width: 320px) and (max-width: 767px) {
-  html{
+  html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
   }
-  
+
   body {
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
     overflow-x: hidden;
-    font-family: "Josefin Sans",sans-serif !important;
+    font-family: "Josefin Sans", sans-serif !important;
   }
-  
-  img{max-width: 100%;}
 
-  .row{
+  img {
+    max-width: 100%;
+  }
+
+  .row {
     margin: 0px !important;
   }
 

@@ -3,7 +3,13 @@ import "./Navbar.css";
 import { headerData } from "../../Data/headerData";
 
 //===== Menu Icon
-import { FaHome, FaUser, FaSlackHash, FaHistory, FaPhoneAlt } from "react-icons/fa";
+import {
+  FaHome,
+  FaUser,
+  FaSlackHash,
+  FaHistory,
+  FaPhoneAlt,
+} from "react-icons/fa";
 import { GrMultiple } from "react-icons/gr";
 import { FcServices } from "react-icons/fc";
 
@@ -13,9 +19,7 @@ import { BsFacebook, BsInstagram, BsTwitter } from "react-icons/bs";
 //===== Mobile Menu Bar Icon
 import { BsList, BsX } from "react-icons/bs";
 
-
 const Navbar = () => {
-
   // Sticky Menu Area
   useEffect(() => {
     window.addEventListener("scroll", isSticky);
@@ -37,7 +41,6 @@ const Navbar = () => {
   return (
     <>
       <nav className="main-nav header-section">
-
         {/* Logo part */}
         <div className="logo">
           <a href="/">

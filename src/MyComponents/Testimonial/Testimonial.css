@@ -1,67 +1,73 @@
 .testmonial-sec {
-    padding-top: 80px;
-    position: relative;
+  padding-top: 80px;
+  position: relative;
 }
 .testimonial-heading {
-    position: relative;
-    font-weight: 500;
-    letter-spacing: 5px;
-    font-size: 20px;
-    color: #000000;
-    margin-bottom: 40px;
+  position: relative;
+  font-weight: 500;
+  letter-spacing: 5px;
+  font-size: 20px;
+  color: #000000;
+  margin-bottom: 40px;
 }
 .testimonial-heading:after {
-    content: "";
-    position: absolute;
-    left: 200px;
-    top: 55%;
-    transform: translateY(-50%);
-    width: 137px;
-    height: 2px;
-    background: linear-gradient(90deg,#fbb42f -2.19%,rgba(251,180,47,0) 102.19%);
-    border-radius: 30px;
+  content: "";
+  position: absolute;
+  left: 200px;
+  top: 55%;
+  transform: translateY(-50%);
+  width: 137px;
+  height: 2px;
+  background: linear-gradient(
+    90deg,
+    #fbb42f -2.19%,
+    rgba(251, 180, 47, 0) 102.19%
+  );
+  border-radius: 30px;
 }
 .testimonial-txt {
-    font-style: italic;
-    font-size: 25px;
-    line-height: 45px;
-    color: #070812 !IMPORTANT;
+  font-style: italic;
+  font-size: 25px;
+  line-height: 45px;
+  color: #070812 !important;
 }
 .testi-user-img img {
-    padding-right: 20px;
+  padding-right: 20px;
 }
 .testmonial-user {
-    display: flex;
-    align-items: center;
-    margin-top: 30px;
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
 }
 
 /*for tablet pro*/
-@media (min-width: 992px) and (max-width: 1024px) {}
+@media (min-width: 992px) and (max-width: 1024px) {
+}
 
 /*for tablet*/
-@media (min-width: 768px) and (max-width: 991px) {}
-  
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
 /*for mobile*/
 @media (min-width: 320px) and (max-width: 767px) {
-    .testmonial-sec {
-        padding-top: 50px;
-    }
-    .testimonial-heading {
-        letter-spacing: 3px;
-        font-size: 18px;
-        margin-bottom: 30px;
-    }
-    .testimonial-heading:after {
-        left: 160px;
-        width: 100px;
-        height: 2px;
-    }
-    .testimonial-txt {
-        font-size: 17px;
-        line-height: 30px;
-    }
-    .testmonial-sec .owl-dots {
-        display: none !important;
-    }
+  .testmonial-sec {
+    padding-top: 50px;
+  }
+  .testimonial-heading {
+    letter-spacing: 3px;
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  .testimonial-heading:after {
+    left: 160px;
+    width: 100px;
+    height: 2px;
+  }
+  .testimonial-txt {
+    font-size: 17px;
+    line-height: 30px;
+  }
+  .testmonial-sec .owl-dots {
+    display: none !important;
+  }
 }

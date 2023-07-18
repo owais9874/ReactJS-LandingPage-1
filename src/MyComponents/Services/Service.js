@@ -14,15 +14,18 @@ export default function Service() {
           </div>
           <div className="all-service">
             <div className="row align-items-center">
-              {serviceData.slice(0,8).reverse().map((servTxt) => (
-                <div className="col-md-3 col-6">
-                  <div className="service1" key={servTxt.id}>
-                    <div className="icon">{servTxt.serIcon}</div>
-                    <button>{servTxt.servBtn}</button>
-                    <p>{servTxt.servText}</p>
+              {serviceData
+                .slice(0, 8)
+                .reverse()
+                .map((servTxt) => (
+                  <div className="col-md-3 col-6">
+                    <div className="service1" key={servTxt.id}>
+                      <div className="icon">{servTxt.serIcon}</div>
+                      <button>{servTxt.servBtn}</button>
+                      <p>{servTxt.servText}</p>
+                    </div>
                   </div>
-                </div>
-              ))}
+                ))}
             </div>
           </div>
         </div>

@@ -5,7 +5,6 @@ import { testimonialData } from "../../Data/testimonialData";
 import Slider from "react-slick";
 
 export default function Testimonial() {
-    
   const settings = {
     dots: true,
     // fade: true,
